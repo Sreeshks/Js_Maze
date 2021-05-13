@@ -9,11 +9,11 @@ $menuHeight: 65px+10px;
 html, body 
 {
     width: 100vw;
-    height: 100vh;
-    position: fixed;
+    height: 90vh;
+    position: absolute;
     padding: 0;
     margin: 0;
-    top: 0;
+    top: 10;
     bottom: 0;
     left: 0;
     right: 0;
@@ -28,7 +28,7 @@ html, body
     opacity: 0;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.30);
-    margin: auto;
+    margin: 30px;
 
     #mazeCanvas 
     {
@@ -184,8 +184,7 @@ input, select
  /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 400px)
  {
-     input, select
-     {
+     input, select{
          width: 120px;
      }
  }
